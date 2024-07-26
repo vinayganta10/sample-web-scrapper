@@ -20,7 +20,7 @@ async function getTitle() {
     return t;
   });
   console.log(title);
-  await browser.close();
+  //await browser.close();
 }
 
 getTitle();
